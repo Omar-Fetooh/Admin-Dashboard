@@ -160,8 +160,22 @@ header {
     /* making it also a grid container  */
     display: grid;
     grid-template-rows: 1.5fr 5fr 6fr;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
+    padding: 10px;
+}
+
+.side-bar ul li {
+    cursor: pointer;
+}
+
+.side-bar svg {
+    width: 10%;
+}
+
+.side-bar svg+span {
+    margin: 15px;
+    margin-left: 20px;
 }
 
 .side-bar .logo-space {
@@ -169,22 +183,31 @@ header {
     text-align: center;
     margin: auto 0;
     font-size: 2rem;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.side-bar .logo-space svg {
+    width: 15%;
+    justify-items: baseline;
 }
 
 .side-bar .nav-space {
     padding: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .side-bar .nav-space ul {
     display: grid;
     grid-template-rows: repeat(5, 50px);
+
 }
 
 .side-bar .setting-space ul {
     padding: 10px;
     display: grid;
     grid-template-rows: repeat(3, 50px);
+    align-items: start;
 }
 
 /* =====================Main Content Part=============== */
